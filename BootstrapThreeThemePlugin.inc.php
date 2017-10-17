@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @file plugins/themes/default/BootstrapThreeThemePlugin.inc.php
+ * @file plugins/themes/bootstrap3/BootstrapThreeThemePlugin.inc.php
  *
  * Copyright (c) 2014-2017 Simon Fraser University Library
  * Copyright (c) 2003-2017 John Willinsky
@@ -70,7 +70,7 @@ class BootstrapThreeThemePlugin extends ThemePlugin {
 			$jquery = '//ajax.googleapis.com/ajax/libs/jquery/' . CDN_JQUERY_VERSION . '/jquery' . $min . '.js';
 			$jqueryUI = '//ajax.googleapis.com/ajax/libs/jqueryui/' . CDN_JQUERY_UI_VERSION . '/jquery-ui' . $min . '.js';
 		} else {
-			// Use OJS's built-in jQuery files
+			// Use OMP's built-in jQuery files
 			$jquery = $request->getBaseUrl() . '/lib/pkp/lib/vendor/components/jquery/jquery' . $min . '.js';
 			$jqueryUI = $request->getBaseUrl() . '/lib/pkp/lib/vendor/components/jqueryui/jquery-ui' . $min . '.js';
 		}

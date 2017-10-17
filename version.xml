@@ -2,7 +2,7 @@
 <!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
 
 <!--
-  * plugins/generic/bootstrap3/version.xml
+  * plugins/themes/bootstrap3/version.xml
   *
   * Copyright (c) 2014-2017 Simon Fraser University Library
   * Copyright (c) 2003-2017 John Willinsky
@@ -14,8 +14,8 @@
 <version>
 	<application>bootstrap3</application>
 	<type>plugins.themes</type>
-	<release>1.0.2.0</release>
-	<date>2017-02-06</date>
+	<release>3.1.0.0</release>
+	<date>2017-08-08</date>
 	<lazy-load>0</lazy-load>
 	<class>BootstrapThreeThemePlugin</class>
 </version>

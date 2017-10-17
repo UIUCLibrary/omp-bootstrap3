@@ -5,7 +5,7 @@
  */
 
 /**
- * @file plugins/themes/default/index.php
+ * @file plugins/themes/bootstrap3/index.php
  *
  * Copyright (c) 2014-2017 Simon Fraser University Library
  * Copyright (c) 2003-2017 John Willinsky
